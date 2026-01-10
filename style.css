@@ -1,0 +1,63 @@
+/* Réinitialisation basique */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Bande supérieure */
+.top-bar {
+    height: 50px;
+    background-color: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Menu */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/* Coordonnées */
+.contact-info {
+    font-size: 13px;
+}
+
+/* Conteneur projets */
+.projects-container {
+    margin-top: 80px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* Carte projet */
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.project h3 {
+    margin: 10px 0 5px 0;
+}
+
+.project p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}

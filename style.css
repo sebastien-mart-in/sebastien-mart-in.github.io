@@ -54,8 +54,13 @@ body {
 }
 
 /* Carte projet */
-.project {
+/*.project {
     text-align: center;
+}*/
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project img {

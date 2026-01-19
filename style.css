@@ -50,7 +50,6 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    place-items: bottom;
 }
 
 /* Carte projet */
@@ -77,11 +76,11 @@ body {
 }
 
 
-.project h3 {
+.project-text h3 {
     margin: 10px 0 5px 0;
 }
 
-.project p {
+.project-text p {
     margin: 0;
     font-size: 14px;
     color: #555;

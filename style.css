@@ -65,8 +65,11 @@ body {
 
 .project img {
     width: 70%;
-    object-fit: cover;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
+
 
 .project h3 {
     margin: 10px 0 5px 0;

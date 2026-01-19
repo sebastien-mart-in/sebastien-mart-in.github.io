@@ -53,34 +53,25 @@ body {
 }
 
 /* Carte projet */
-/*.project {
-    text-align: center;
-}*/
 .project {
-    display: flex;
-    flex-direction: column;
-}
-
-.project-text {
-    margin-top: 12px;
     text-align: center;
-    min-height: 5em;
 }
 
 
 .project img {
-    width: 70%;
+    max-height: 250px;
+    width: 100%;
     height: auto;
-    display: block;
     object-fit: contain;
 }
 
 
-.project-text h3 {
+
+.project h3 {
     margin: 10px 0 5px 0;
 }
 
-.project-text p {
+.project p {
     margin: 0;
     font-size: 14px;
     color: #555;

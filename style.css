@@ -46,10 +46,10 @@ body {
 /* Conteneur projets */
 .projects-container {
     margin-top: 80px;
-    padding: 40px;
+    padding: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
+    gap: 30px;
 }
 
 /* Carte projet */
